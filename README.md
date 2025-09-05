@@ -3,6 +3,8 @@ A simple tool to check the HTTP status of multiple URLs.
 
 
 # Install the required libraries with:
-
+```bash
 python -m pip install httpx colorama fake-useragent
+```
+
 
