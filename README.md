@@ -1,5 +1,5 @@
 # Url-Checkers
-A simple tool to check the HTTP status of multiple URLs.
+A simple tool to check the HTTP status of urls.
 
 
 # Install the required libraries with:
