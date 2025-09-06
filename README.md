@@ -1,4 +1,4 @@
-# Url-Checker-txt
+# Url-Checkers
 A simple tool to check the HTTP status of multiple URLs.
 
 
