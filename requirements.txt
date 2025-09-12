@@ -1,1 +1,5 @@
+httpx
+colorama
+fake-useragent
+customtkinter
 
