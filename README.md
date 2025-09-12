@@ -36,6 +36,9 @@ clone with:
 
 
 `python -m pip install CustomTkinter Colorama httpx fake-useragent`
+### Screenshot-gui
+![GUI Screenshot](docs/screenshot-gui.png)
+
 
 ### Disclaimer
 Este proyecto está creado únicamente con fines **educativos y de aprendizaje**.  
