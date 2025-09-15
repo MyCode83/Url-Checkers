@@ -14,7 +14,8 @@ clone with:
 
 - **Url-GUI**  --->  This is a **GUI** version built with CustomTkinter that checks **URLs** from a **TXT** file or allows manual input. It includes an optional auto-save feature to store logs automatically, as well as a manual save    
                      option to export logs in **TXT** or **LOG** format.
-### Requirements
+## Requirements
+---
 ### Url-Checker-txt1
 > `Colorama`
 > `httpx`
