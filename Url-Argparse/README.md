@@ -6,7 +6,7 @@
 - Use `--html` to view the html responde
 - Use `--headers` or `-H` to load custom headers, for example: `python3 url-args.py https://example.com -H headers.json --status`
 ### Requirements
-- `python 3`
-- `httpx`
-- `colorama`
+> `python 3`
+> `httpx`
+> `colorama`
 `python3 -m pip install colorama httpx`
