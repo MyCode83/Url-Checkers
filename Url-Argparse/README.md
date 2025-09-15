@@ -7,6 +7,6 @@
 - Use `--headers` or `-H` to load custom headers, for example: `python3 url-args.py https://example.com -H headers.json --status`
 ### Requirements
 > `python 3`
-> `httpx`
 > `colorama`
+> `httpx`
 `python3 -m pip install colorama httpx`
