@@ -9,4 +9,6 @@
 > `python 3`
 > `colorama`
 > `httpx`
+
+
 `python3 -m pip install colorama httpx`
