@@ -12,8 +12,8 @@ clone with:
 
 - **Url-Checker2** --->  Checks the status code of a URL with a brief explanation, and can optionally return the response headers in JSON.
 
-- **Url-GUI**  --->  This is a GUI version built with CustomTkinter that checks URLs from a TXT file or allows manual input. It includes an optional auto-save feature to store logs automatically, as well as a manual save    
-                     option to export logs in TXT or LOG format.
+- **Url-GUI**  --->  This is a **GUI** version built with CustomTkinter that checks **URLs** from a **TXT** file or allows manual input. It includes an optional auto-save feature to store logs automatically, as well as a manual save    
+                     option to export logs in **TXT** or **LOG** format.
 ### Requirements
 ### Url-Checker-txt1
 > `Colorama`
