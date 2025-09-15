@@ -2,7 +2,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-This repository contains 3 scripts to view the **status code** of a web page.
+This repository contains 4 scripts to view the **status code** of a web page.
 
 clone with:
 `git clone https://github.com/MyCode83/Url-Checkers.git`
