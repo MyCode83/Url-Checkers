@@ -10,7 +10,8 @@ parser = argparse.ArgumentParser(description="Url-Checker with arguments")
 parser.add_argument("url", help="")
 parser.add_argument("--status", "-S", help="an argument to view the status code", action="store_true")
 parser.add_argument("--header", "-H", help="an argument for setting custom headers (json)")
-parser.add_argument("--html", help="an argument see the html response", action="store_true")
+parser.add_argument("--html", help="an argument to see the html response", action="store_true")
+parser.add_argument("--Not-follow-redirect", "-nfr", help="an argument to not follow redirects (may give 301 in the status code)", action="store_true")
 args= parser.parse_args()
 if args.header:
     try:
@@ -39,8 +40,10 @@ elif not args.header:
 
 
     }
-
-request=httpx.get(url=args.url, headers=_headers, follow_redirects=True)
+redirects=True
+if args.Not_follow_redirect:
+    redirects = False
+request=httpx.get(url=args.url, headers=_headers, follow_redirects=redirects)
 if args.status == True:
     print(green+f"{args.url} --> {request.status_code}")
     time.sleep(0.01)
