@@ -4,6 +4,7 @@
 > python3 url-args.py **URL** *args*
 - Use `--status` or `-S` to check the status code
 - Use `--html` to view the html responde
+- Use `--not-follow-redirect` or `-nfr` to not follow redirect (may give 301 in the status code)
 - Use `--headers` or `-H` to load custom headers, for example: `python3 url-args.py https://example.com -H headers.json --status`
 ### Requirements
 > `python 3`
