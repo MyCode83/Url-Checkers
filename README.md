@@ -1,7 +1,7 @@
 # Url-Checkers
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![GitHub last commit](https://img.shields.io/github/last-commit/MyCode83/url-checker)
+![GitHub last commit](https://img.shields.io/github/last-commit/MyCode83/Url-Checkers)
 
 This repository contains 4 scripts to view the **status code** of a web page.
 
