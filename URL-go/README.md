@@ -1,6 +1,8 @@
 # URL-go
 ![Go](https://img.shields.io/badge/Go-1.18+-00ADD8?logo=go&logoColor=white)
 
+[go-resty/resty](https://github.com/go-resty/resty)
+
 > A Go script that gives you the source code for a web page.
 
 
