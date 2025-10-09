@@ -35,6 +35,7 @@ clone with:
 > `fake-useragent`
 
 
+`python3 -m pip install Colorama httpx fake-useragent`
 ### URL-go
 > `go 1.8+`
 > `resty`
@@ -42,7 +43,6 @@ clone with:
 `go mod init check`, `go get github.com/go-resty/resty/v2`, `go build check.exe` if you want in $GOPATH `go install`
 
 
-`python3 -m pip install Colorama httpx fake-useragent`
 ### Url-GUI
 > `CustomTkinter`
 > `httpx`
