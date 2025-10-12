@@ -10,6 +10,26 @@
 
 
 > Clone with: `git clone https://github.com/MyCode83/Url-Checkers.git`
+
+## Features: 
+### v1 : 
+- check the an url with -url
+- colors
+- An brief description of each status code
+### v2: 
+- Goroutines (Wait Groups)
+- colors
+- An brief description of each status code
+- A timer to see how long it takes to complete all the requests
+- `7 flags` :
+    - flag `-url` to check an url (like v1)
+    - flag `-list` to check the urls of a wordlist
+    - flag `-see` to see the response body only with `-list`
+    - flag `-threads` to put max goroutines
+    - flag `-ua` to send a custom User-Agent
+    - flag `-ignore` to ignore a list of status code
+    - flag `-timeout` to custom the timeout
+---
 - The provided binaries are only for **Linux x86_64** and **Windows x86_64**
 
 ---
