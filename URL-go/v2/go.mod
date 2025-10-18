@@ -1,4 +1,4 @@
-module check
+module github.com/MyCode83/URL-Checkers/URL-go/v2
 
 go 1.25.1
 
