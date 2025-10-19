@@ -14,7 +14,10 @@ clone with:
 
 - **Url-Checker2** --->  Checks the status code of a URL with a brief explanation, and can optionally return the response headers in JSON.
 
-- **URL-go** ---> It's like **Url-checker2** but made in go but return the response http and has a flag -url to pass it.
+- **URL-go** ---> In v1 it's like **Url-checker2** but made in go but return the response http and has a flag -url to pass it.
+
+  
+  In v2 it can use a list of urls, custom threads, custom UserAgent, an slice of ignored codes ...
 
 - **Url-Argparse** --->  This Script checks the status and content of a **URL** using `argparse`, with support for showing the status code, the **HTML** response, and using custom **JSON** headers.
 
